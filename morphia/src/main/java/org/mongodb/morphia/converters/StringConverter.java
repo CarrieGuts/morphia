@@ -21,6 +21,9 @@ public class StringConverter extends TypeConverter implements SimpleValueConvert
 
     @Override
     public Object decode(final Class targetClass, final Object fromDBObject, final MappedField optionalExtraInfo) {
+
+
+        
         if (fromDBObject == null) {
             return null;
         }
